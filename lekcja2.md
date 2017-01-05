@@ -6,6 +6,7 @@ wewnątrz niego utwórz katalog o nazwie w tym formacie imie_nazwisko
 przejdź do niego
 utworz w nim katalog lekcja2
 w nim utworz plik piramida.java, waga.java, piramida2.java
+Do sprytnych, którzy chcą sobie wyklikać: w konsoli zapisywana jest historiia wklepywanych poleceń. Łatwo sprawdzić, czy foldery zostały utworzone za pomocą konsoli, czy nie.
 
 # Printowanie
 Napisz program, który wydrukuje dowolnego stringa 256 razy.
@@ -17,24 +18,25 @@ Ponad to powinien sprawdzać, czy użytkownik podał argument, jeśli nie - wyś
 Piramida nie może być wyższa niż 23 piętra, zatem jeśli użytkownik wprowadzi liczbę większą niż 23 wyświetl błąd.
 Przykład użycia:
 
- >> java piramida 3
-   #
-  ##
- ###
+ > java piramida 3
+ >  #
+ > ##
+ > ###
 
 aby użyć argumentu jako int, musisz dokonać konwersji typów.
 Można to zrobić w ten sposób: int liczba_pieter = Integer.parseint(args[0]);
 
 # Piramida2
 Lekka modyfikacja piramidy, tyle, że zamiast takiej piramidy:
-    #
-   ##
-  ###
+ > java piramida 3
+ >  #
+ > ##
+ > ###
   
 Należy napisać program, który wydrukuje taką
-    # #
-   ## ##
-  ### ###
+>    # #
+>   ## ##
+>  ### ###
    
 # Waga w funtach
 Użytkownik podaje argument z wiersza poleceń przy uruchomieniu.
