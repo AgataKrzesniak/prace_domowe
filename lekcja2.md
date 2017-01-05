@@ -19,8 +19,8 @@ Piramida nie może być wyższa niż 23 piętra, zatem jeśli użytkownik wprowa
 Przykład użycia:
 ```
  > java piramida 3
- >  #
- > ##
+ >   #
+ >  ##
  > ###
 ```
 aby użyć argumentu jako int, musisz dokonać konwersji typów.
@@ -30,8 +30,8 @@ Można to zrobić w ten sposób: int liczba_pieter = Integer.parseint(args[0]);
 Lekka modyfikacja piramidy, tyle, że zamiast takiej piramidy:
 ```
  > java piramida 3
- >  #
- > ##
+ >   #
+ >  ##
  > ###
   ```
 Należy napisać program, który wydrukuje taką
