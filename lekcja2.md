@@ -24,7 +24,7 @@ Przykład użycia:
  > ###
 ```
 aby użyć argumentu jako int, musisz dokonać konwersji typów.
-Można to zrobić w ten sposób: int liczba_pieter = Integer.parseint(args[0]);
+Można to zrobić w ten sposób: int liczba_pieter = Integer.parseInt(args[0]);
 
 # Piramida2
 Lekka modyfikacja piramidy, tyle, że zamiast takiej piramidy:
@@ -45,7 +45,7 @@ Użytkownik podaje argument z wiersza poleceń przy uruchomieniu.
 Twój program sprawdza, czy użytkownik go podał, jeśli nie, wyświetla informację o błędzie.
 Jeśli podał, to wyświetla podaną wagę, ale w funtach.
 1 funt = 0.53 kilograma
-Tutaj ponwonie należy dokonać konwersji typu, ale zamiast Integer, należy użyć Double.parsedouble[args[0]]
+Tutaj ponwonie należy dokonać konwersji typu, ale zamiast Integer, należy użyć Double.parseDouble[args[0]]
 
 
  
