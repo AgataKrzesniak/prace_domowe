@@ -1,0 +1,16 @@
+import java.util.Arrays;
+ public class Sortowanie{
+     public static void main(String[] args){
+         if(args.length !=0 || args.length <=512)
+         {
+         int [] a = new int [args.length];
+         
+         for(int i = 0; i < args.length; i++)
+         {
+             a[i]=Integer.parseInt(args[i]);
+         }Arrays.sort(a);
+         System.out.println(Arrays.toString(a));}
+         
+         else
+         System.out.println("bład");}
+ }
