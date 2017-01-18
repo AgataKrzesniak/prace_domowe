@@ -1,0 +1,17 @@
+public class szyfrC{
+    public static void main(String [] args){
+        
+        if(args.length==2){ 
+        
+     String a = args[0].toUpperCase( );
+      char  c= a.charAt(0);
+ 
+  
+   String b= args[1];
+  for(int i=0;i< b.length() ;i++)
+    System.out.println((char)(b.charAt(i)+(c-64)));
+
+    }
+    else 
+    System.out.print(" BŁĄĄĄĄĄD !!!!!!!!!! ") ;
+}}
